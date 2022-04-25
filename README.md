@@ -1,6 +1,6 @@
 # Stumblr
 
-Stumblr Application is Social Application where people can discuss about entrepreneurial ventures.
+Stumblr Application is Social Application where people can discuss about problems and solution faced during entrepreneurial ventures.
 
 ## Installation
 
