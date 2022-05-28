@@ -22,8 +22,8 @@
         {% if request.user.is_authenticated %}
         <!-- Logged In -->
 
-        <div class="header__user">
-          <a href="profile.html">
+        <div class="header__user"> 
+          <a href="{% url 'user-profile' user.id%}">
             <div class="avatar avatar--medium active">
               <img src="https://randomuser.me/api/portraits/men/37.jpg" />
             </div>
@@ -40,7 +40,6 @@
         {% else %}
 
 
-         Not Logged In -->
         <a href="{% url 'login'%}">
           <img src="{% static 'images/avatar.svg' %}" />
           <p>Login</p>
