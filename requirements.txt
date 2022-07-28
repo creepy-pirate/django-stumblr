@@ -30,3 +30,4 @@ sqlparse==0.4.2
 termcolor==1.1.0
 urllib3==1.26.9
 virtualenv==20.13.4
+gunicorn
