@@ -11,6 +11,7 @@ halo==0.0.31
 idna==3.3
 log-symbols==0.0.14
 numpy==1.21.1
+Pillow==9.2.0
 platformdirs==2.5.1
 protobuf==3.17.3
 pyperclip==1.8.2
@@ -27,6 +28,8 @@ retry-requests==1.0.1
 six==1.16.0
 spinners==0.0.24
 sqlparse==0.4.2
+TBB==0.2
 termcolor==1.1.0
 urllib3==1.26.9
 virtualenv==20.13.4
+whitenoise==6.2.0
